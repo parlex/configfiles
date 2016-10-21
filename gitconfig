@@ -1,0 +1,12 @@
+[user]
+	name = alepre
+	email = alexander.premer@knowit.no
+
+[alias]
+        co = commit -am
+        ch = checkout
+        st = status
+        br = !sh -c 'git push origin HEAD:refs/heads/$1 && git checkout -t origin/$1' -
+     graph = log --graph
+[core]
+	editor = /usr/bin/vim
